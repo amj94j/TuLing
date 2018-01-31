@@ -1,0 +1,188 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
+  - FSCalendar (2.7.9)
+  - HexColors (2.2.1)
+  - Hyphenate_CN (3.2.2.2)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.15.1)
+  - PinYin4Objc (1.1.1)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+  - UMengAnalytics-NO-IDFA (4.1.9)
+  - UMengUShare (6.4.8):
+    - UMengUShare/Core (= 6.4.8)
+    - UMengUShare/Network (= 6.4.8)
+    - UMengUShare/Plugin (= 6.4.8)
+    - UMengUShare/Social (= 6.4.8)
+    - UMengUShare/UI (= 6.4.8)
+  - UMengUShare/Core (6.4.8):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8)
+  - UMengUShare/Plugin (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Plugin/IDFA (= 6.4.8)
+  - UMengUShare/Plugin/IDFA (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/AlipayShare (= 6.4.8)
+    - UMengUShare/Social/DingDing (= 6.4.8)
+    - UMengUShare/Social/Douban (= 6.4.8)
+    - UMengUShare/Social/DropBox (= 6.4.8)
+    - UMengUShare/Social/Email (= 6.4.8)
+    - UMengUShare/Social/EverNote (= 6.4.8)
+    - UMengUShare/Social/Facebook (= 6.4.8)
+    - UMengUShare/Social/FaceBookMessenger (= 6.4.8)
+    - UMengUShare/Social/Flickr (= 6.4.8)
+    - UMengUShare/Social/GooglePlus (= 6.4.8)
+    - UMengUShare/Social/Instagram (= 6.4.8)
+    - UMengUShare/Social/Kakao (= 6.4.8)
+    - UMengUShare/Social/LaiWang (= 6.4.8)
+    - UMengUShare/Social/Line (= 6.4.8)
+    - UMengUShare/Social/Linkedin (= 6.4.8)
+    - UMengUShare/Social/Pinterest (= 6.4.8)
+    - UMengUShare/Social/Pocket (= 6.4.8)
+    - UMengUShare/Social/QQ (= 6.4.8)
+    - UMengUShare/Social/ReducedQQ (= 6.4.8)
+    - UMengUShare/Social/ReducedSina (= 6.4.8)
+    - UMengUShare/Social/ReducedWeChat (= 6.4.8)
+    - UMengUShare/Social/Renren (= 6.4.8)
+    - UMengUShare/Social/Sina (= 6.4.8)
+    - UMengUShare/Social/SMS (= 6.4.8)
+    - UMengUShare/Social/TencentWeibo (= 6.4.8)
+    - UMengUShare/Social/Tumblr (= 6.4.8)
+    - UMengUShare/Social/Twitter (= 6.4.8)
+    - UMengUShare/Social/VKontakte (= 6.4.8)
+    - UMengUShare/Social/WeChat (= 6.4.8)
+    - UMengUShare/Social/WhatsApp (= 6.4.8)
+    - UMengUShare/Social/YiXin (= 6.4.8)
+    - UMengUShare/Social/YouDao (= 6.4.8)
+  - UMengUShare/Social/AlipayShare (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/DingDing (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Douban (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/DropBox (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Email (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/EverNote (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Facebook (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/FaceBookMessenger (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Flickr (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/GooglePlus (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Instagram (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Kakao (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/LaiWang (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Line (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Linkedin (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pinterest (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Pocket (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/QQ (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Renren (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/SMS (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/TencentWeibo (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Tumblr (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Twitter (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/VKontakte (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/Social/WhatsApp (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/YiXin (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/YouDao (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.8):
+    - UMengUShare/Core
+  - WebViewJavascriptBridge (6.0.3)
+  - XHLaunchAd (3.5.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - CocoaLumberjack
+  - FSCalendar (~> 2.7.9)
+  - Hyphenate_CN
+  - Masonry (~> 1.0.2)
+  - MJRefresh (~> 3.1.12)
+  - PinYin4Objc (~> 1.1.1)
+  - SDWebImage (~> 4.0.0-beta2)
+  - TSMessages
+  - UMengAnalytics-NO-IDFA (~> 4.1.9)
+  - UMengUShare (~> 6.4.3)
+  - WebViewJavascriptBridge (~> 6.0)
+  - XHLaunchAd (~> 3.5.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  Hyphenate_CN: fb0ecb6bce81a8e784ee02e9e2c0ddfba9a365d1
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  PinYin4Objc: 3fa9673610368330e2dfb688b1d19a35c3930a78
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+  UMengAnalytics-NO-IDFA: 985292af177111685325c90c321094172b95d2cb
+  UMengUShare: 7a0ab762ccd445ccfcf11bde8e7f81b29b9f5e1c
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  XHLaunchAd: 8f605c9d62dc9629e561e97c1d43adb1bbbbb2af
+
+PODFILE CHECKSUM: fa2c335bcd185aba2a9d2506fcfcddebabfde65e
+
+COCOAPODS: 1.3.1

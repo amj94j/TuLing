@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/productResult/CommentSuccessViewController.m"
+            timestampString = "522227108.276815"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-loadData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/productResult/CommentSuccessViewController.m"
+            timestampString = "522227190.44238"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-loadData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/CommentSuccessResult/view/SelectPhotoCollectionViewCell.h"
+            timestampString = "522394083.575336"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SelectPhotoCollectionViewCell delegate]"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< .working
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/Classes/Modules/TuYouKeTao/CommentSuccessResult/view/SelectPhotoCollectionViewCell.h"
+                  timestampString = "525788450.495466"
+=======
+<<<<<<< .working
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/touring3.1.7/TuLingApp/Classes/Modules/TuYouKeTao/CommentSuccessResult/view/SelectPhotoCollectionViewCell.h"
+                  timestampString = "525865484.533904"
+=======
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/Classes/Modules/TuYouKeTao/CommentSuccessResult/view/SelectPhotoCollectionViewCell.h"
+                  timestampString = "525788450.495466"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SelectPhotoCollectionViewCell setDelegate:]"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< .working
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/Classes/Modules/TuYouKeTao/CommentSuccessResult/view/SelectPhotoCollectionViewCell.h"
+                  timestampString = "525788450.500004"
+=======
+<<<<<<< .working
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/touring3.1.7/TuLingApp/Classes/Modules/TuYouKeTao/CommentSuccessResult/view/SelectPhotoCollectionViewCell.h"
+                  timestampString = "525865484.537487"
+=======
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/Classes/Modules/TuYouKeTao/CommentSuccessResult/view/SelectPhotoCollectionViewCell.h"
+                  timestampString = "525788450.500004"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/PersonalCenter/Controller/TopicVC/topicShopVC.m"
+            timestampString = "522589007.434923"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "-rightClick"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/PersonalCenter/Controller/Tuling_like_and_collection/controller/myCollectionViewController.m"
+            timestampString = "523507400.624431"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "548"
+            endingLineNumber = "548"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/PopupView/parameterPopView.m"
+            timestampString = "523244207.224273"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "-requestImageData:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/PersonalCenter/Controller/Tuling_like_and_collection/controller/myCollectionViewController.m"
+            timestampString = "523507400.624431"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "567"
+            endingLineNumber = "567"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/PersonalCenter/Controller/Tuling_like_and_collection/controller/myCollectionViewController.m"
+            timestampString = "523507400.624431"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "575"
+            endingLineNumber = "575"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/articleDetail/articleDetailViewController.m"
+            timestampString = "523261209.258807"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "-carClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/PopupView/newRecentPopView.m"
+            timestampString = "523357431.876438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "-commentTap"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/PersonalCenter/Controller/TLAdvancedSearchListViewController/TLAdvancedSearchListViewController.m"
+            timestampString = "523508278.683748"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "387"
+            endingLineNumber = "387"
+            landmarkName = "-segumentSelectionChange:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__62-[TLAdvancedSearchListViewController segumentSelectionChange:]_block_invoke.314"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< .working
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/Classes/Modules/PersonalCenter/Controller/TLAdvancedSearchListViewController/TLAdvancedSearchListViewController.m"
+                  timestampString = "525788450.553904"
+=======
+<<<<<<< .working
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/touring3.1.7/TuLingApp/Classes/Modules/PersonalCenter/Controller/TLAdvancedSearchListViewController/TLAdvancedSearchListViewController.m"
+                  timestampString = "525865484.580043"
+=======
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/Classes/Modules/PersonalCenter/Controller/TLAdvancedSearchListViewController/TLAdvancedSearchListViewController.m"
+                  timestampString = "525788450.553904"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "387"
+                  endingLineNumber = "387"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__62-[TLAdvancedSearchListViewController segumentSelectionChange:]_block_invoke_2.315"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+<<<<<<< .working
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/Classes/Modules/PersonalCenter/Controller/TLAdvancedSearchListViewController/TLAdvancedSearchListViewController.m"
+                  timestampString = "525788450.558837"
+=======
+<<<<<<< .working
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/touring3.1.7/TuLingApp/Classes/Modules/PersonalCenter/Controller/TLAdvancedSearchListViewController/TLAdvancedSearchListViewController.m"
+                  timestampString = "525865484.583749"
+=======
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/Classes/Modules/PersonalCenter/Controller/TLAdvancedSearchListViewController/TLAdvancedSearchListViewController.m"
+                  timestampString = "525788450.558837"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "388"
+                  endingLineNumber = "388"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/commodityDetail/commodityView.m"
+            timestampString = "523848376.213675"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1089"
+            endingLineNumber = "1089"
+            landmarkName = "-lookBrand:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/PopupView/BrandStoryView.m"
+            timestampString = "523795770.329544"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-popBrandView:control:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuGeFangBian/TuGeFangBian/ServiceViewController.m"
+            timestampString = "523851700.498273"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "-initDatalatitude:longtitude:cityMyName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuGeFangBian/TuGeFangBian/ServiceViewController.m"
+            timestampString = "523851828.174399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1049"
+            endingLineNumber = "1049"
+            landmarkName = "-secretaryBtnClick:View:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuGeFangBian/TuGeFangBian/ServiceViewController.m"
+            timestampString = "523851852.063239"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1178"
+            endingLineNumber = "1178"
+            landmarkName = "@implementation ServiceViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuGeFangBian/TuGeFangBian/ServiceViewController.m"
+            timestampString = "523852386.112113"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "-viewWillAppear:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuGeFangBian/TuGeFangBian/ServiceViewController.m"
+            timestampString = "523852400.368657"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/CommentSuccessResult/CommentSuccessViewController.m"
+            timestampString = "523872837.975374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "-loadData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Common/Main/TabBarController/BackgroundViewController.m"
+            timestampString = "524367300.816817"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "-serviceTapClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/KeTaoProductList/TLKeTaoProductListViewController.m"
+            timestampString = "524645994.217815"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "474"
+            endingLineNumber = "474"
+            landmarkName = "-searchViewClick"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+<<<<<<< .working
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525665388.475131"
+=======
+<<<<<<< .working
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/KeTaoProductList/TLKeTaoProductListViewController.m"
+            timestampString = "524645994.217815"
+=======
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525665388.475131"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+<<<<<<< .working
+            startingLineNumber = "643"
+            endingLineNumber = "643"
+            landmarkName = "-application:handleOpenURL:"
+=======
+<<<<<<< .working
+            startingLineNumber = "474"
+            endingLineNumber = "474"
+            landmarkName = "-searchViewClick"
+=======
+            startingLineNumber = "643"
+            endingLineNumber = "643"
+            landmarkName = "-application:handleOpenURL:"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+<<<<<<< .working
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525665536.480759"
+=======
+<<<<<<< .working
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/Controller/SearchCityViewController.m"
+            timestampString = "524745502.132048"
+=======
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525665536.480759"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+<<<<<<< .working
+            startingLineNumber = "499"
+            endingLineNumber = "499"
+            landmarkName = "-application:openURL:sourceApplication:annotation:"
+=======
+<<<<<<< .working
+            startingLineNumber = "463"
+            endingLineNumber = "463"
+            landmarkName = "-issecelt:locatID:"
+=======
+            startingLineNumber = "499"
+            endingLineNumber = "499"
+            landmarkName = "-application:openURL:sourceApplication:annotation:"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+<<<<<<< .working
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525669063.342823"
+=======
+<<<<<<< .working
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/KeTaoProductList/TLChooseStringView.m"
+            timestampString = "524988027.226463"
+=======
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525669063.342823"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+<<<<<<< .working
+            startingLineNumber = "1228"
+            endingLineNumber = "1228"
+            landmarkName = "-skipToMessageCenter1"
+=======
+<<<<<<< .working
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "-takeBackTableView"
+=======
+            startingLineNumber = "1228"
+            endingLineNumber = "1228"
+            landmarkName = "-skipToMessageCenter1"
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+            landmarkType = "7">
+<<<<<<< .working
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate skipToMessageCenter1]"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/AppDelegate.m"
+                  timestampString = "525788450.645145"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1229"
+                  endingLineNumber = "1229"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[AppDelegate skipToMessageCenter1]_block_invoke"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/AppDelegate.m"
+                  timestampString = "525788450.64894"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1229"
+                  endingLineNumber = "1229"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+=======
+<<<<<<< .working
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TLChooseStringView takeBackTableView]"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/touring3.1.7/TuLingApp/Classes/Modules/TuYouKeTao/KeTaoProductList/TLChooseStringView.m"
+                  timestampString = "525865484.673889"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "222">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__39-[TLChooseStringView takeBackTableView]_block_invoke"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/touring3.1.7/TuLingApp/Classes/Modules/TuYouKeTao/KeTaoProductList/TLChooseStringView.m"
+                  timestampString = "525865484.678984"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+=======
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate skipToMessageCenter1]"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/AppDelegate.m"
+                  timestampString = "525788450.645145"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1229"
+                  endingLineNumber = "1229"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[AppDelegate skipToMessageCenter1]_block_invoke"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/AppDelegate.m"
+                  timestampString = "525788450.64894"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1229"
+                  endingLineNumber = "1229"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+         </BreakpointContent>
+      </BreakpointProxy>
+<<<<<<< .working
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525669063.342823"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1220"
+            endingLineNumber = "1220"
+            landmarkName = "-skipToMessageCenter"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate skipToMessageCenter]"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/AppDelegate.m"
+                  timestampString = "525788450.658025"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1221"
+                  endingLineNumber = "1221"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[AppDelegate skipToMessageCenter]_block_invoke"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/AppDelegate.m"
+                  timestampString = "525788450.662112"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1221"
+                  endingLineNumber = "1221"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525665883.524982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "509"
+            endingLineNumber = "509"
+            landmarkName = "-application:openURL:sourceApplication:annotation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525666446.127305"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1139"
+            endingLineNumber = "1139"
+            landmarkName = "-jumpApp:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525666547.041717"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1140"
+            endingLineNumber = "1140"
+            landmarkName = "-jumpApp:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/PersonalCenter/Controller/MyOrders/ApplyForReturnVC.m"
+            timestampString = "525788448.59273"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "-onPutInBtnClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+=======
+<<<<<<< .working
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/KeTaoProductList/TLChooseStringView.m"
+            timestampString = "524988052.411203"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "-expandWithTableViewHeight:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/KeTaoProductList/TLChooseStringView.m"
+            timestampString = "524988079.444022"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "-expandWithTableViewHeight:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TLChooseStringView expandWithTableViewHeight:]"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/touring3.1.7/TuLingApp/Classes/Modules/TuYouKeTao/KeTaoProductList/TLChooseStringView.m"
+                  timestampString = "525865484.700056"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "498">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__48-[TLChooseStringView expandWithTableViewHeight:]_block_invoke"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/touring3.1.7/TuLingApp/Classes/Modules/TuYouKeTao/KeTaoProductList/TLChooseStringView.m"
+                  timestampString = "525865484.704012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/TuYouKeTao/KeTaoSearchView/TLKeTaoSearchViewController.m"
+            timestampString = "525092939.055959"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "-requestData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+=======
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525669063.342823"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1220"
+            endingLineNumber = "1220"
+            landmarkName = "-skipToMessageCenter"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDelegate skipToMessageCenter]"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/AppDelegate.m"
+                  timestampString = "525788450.658025"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1221"
+                  endingLineNumber = "1221"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[AppDelegate skipToMessageCenter]_block_invoke"
+                  moduleName = "TuLingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lilida/Desktop/touring3.17/tuling_ios-master/TuLingApp/AppDelegate.m"
+                  timestampString = "525788450.662112"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1221"
+                  endingLineNumber = "1221"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525665883.524982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "509"
+            endingLineNumber = "509"
+            landmarkName = "-application:openURL:sourceApplication:annotation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525666446.127305"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1139"
+            endingLineNumber = "1139"
+            landmarkName = "-jumpApp:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/AppDelegate.m"
+            timestampString = "525666547.041717"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1140"
+            endingLineNumber = "1140"
+            landmarkName = "-jumpApp:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TuLingApp/Classes/Modules/PersonalCenter/Controller/MyOrders/ApplyForReturnVC.m"
+            timestampString = "525788448.59273"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "-onPutInBtnClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+>>>>>>> .merge-right.r5312
+>>>>>>> .merge-right.r6248
+   </Breakpoints>
+</Bucket>

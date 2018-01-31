@@ -1,0 +1,140 @@
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#endif /* PrefixHeader_pch */
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <AlipaySDK/AlipaySDK.h>
+#import <UIKit/UIKit.h>
+
+
+#define TLScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define TLScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define TLColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0  blue:(b)/255.0  alpha:(a)/1.0]
+
+#define kFitRatio(t) ((t) * [UIScreen mainScreen].bounds.size.width / 320)
+
+//#import <Foundation/Foundation.h>
+//#import <SystemConfiguration/SystemConfiguration.h>
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD+WJ.h"
+#import "LXTControl.h"
+#import "StaticTools.h"
+#import "TLAccountSave.h"
+#import "UIImage+DX.h"
+#import "NetAccess.h"
+#import "kInterface.h"
+#import "NSString+checkNull.h"
+#import "NSString+StrCGSize.h"
+#import "UIColor+ColorChange.h"
+#import "MJRefresh.h"
+#import "normalLoginVC.h"
+#import "regular.h"
+#import "UMMobClick/MobClick.h"
+#import "WebViewJavascriptBridge.h"
+#import "NSObject+TLNumberWithDouble.h"
+#import "createControl.h"
+#import "NSString+Extension.h"
+#import "AppConfig.h"
+#import "UIView+Common.h"
+#import "TLUploadSystemInfo.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import "TuLingConfig.h"
+#import "UIButton+Extensions.h"
+#import "TicketBaseVC.h"
+#import "NSDictionary+Addons.h"
+#import "UIView+HLExtension.h"
+
+
+#endif
+//
+////define this constant if you want to use Masonry without the 'mas_' prefix
+//#define MAS_SHORTHAND
+////define this constant if you want to enable auto-boxing for default syntax
+//#define MAS_SHORTHAND_GLOBALS
+//#import "Masonry.h"
+
+#pragma mark - 适配屏幕宽高
+#define IPHONE4_HEIGHT  480
+#define IPHONE4_WIDTH   320
+
+#define IPHONE5_HEIGHT  568
+#define IPHONE5_WIDTH   320
+
+#define IPHONE6_HEIGHT  667
+#define IPHONE6_WIDTH   375
+
+#define IPHONE6P_HEIGHT 736
+#define IPHONE6P_WIDTH  414
+
+
+#pragma mark - 判断手机型号
+//
+#define isIPHONE4 [UIScreen mainScreen].bounds.size.height == 480
+#define isIPHONE5 [UIScreen mainScreen].bounds.size.height == 568
+#define isIPHONE6 [UIScreen mainScreen].bounds.size.height == 667
+#define isIPHONE6P [UIScreen mainScreen].bounds.size.height == 736
+//屏幕宽高
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+// 默认高度
+#define tabbarHeight 49
+#define mainScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define mainScreenHeight [UIScreen mainScreen].bounds.size.height
+#pragma 5s为基准的比例
+#define RatioPhoneHEIGHT [UIScreen mainScreen].bounds.size.height/568
+#define RatioPhoneWIDTH  [UIScreen mainScreen].bounds.size.width/320
+
+#define kScaleImage 0.6
+
+#define kDistance 1000
+//休闲娱乐Cell高度
+#define Cell_HEIGHT  ([[UIScreen mainScreen] bounds].size.width/2)/16*9+60+10
+//品味天下/有情有景Cell高度
+#define Scence_Taste_CELLHEIGHT 180
+#define Tirp_CELLHEIGHT ([[UIScreen mainScreen] bounds].size.width-20)*9/16+70
+
+//系统版本
+
+#define IOS7_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define IOS8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+
+//颜色值
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+                                           
+#define map3DBtnWidth WIDTH-70
+
+#define map3DBtnHeight 35
+
+
+//自定义cell分割线颜色[UIColor redColor]
+#define cellLineColor RGBCOLOR(238, 238, 238)
+//自定义cell分割线高度
+#define cellLineH 0.5
+
+
+#ifdef DEBUG
+
+#else
+
+#endif
+
+
+
+
+
+
+
+

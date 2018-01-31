@@ -1,0 +1,22 @@
+platform:ios,'8.0'
+target 'TuLingApp' do
+pod 'AFNetworking', '~> 3.1.0'
+#pod 'AMap3DMap-NO-IDFA', '~> 4.6.1'
+pod 'Hyphenate_CN'
+pod 'XHLaunchAd','~> 3.5.2'
+#pod 'JPush-iOS-SDK', '~> 3.0.2'
+#pod 'AMapSearch-NO-IDFA', '~> 4.5.0'
+pod 'SDWebImage', '~> 4.0.0-beta2'
+pod 'Masonry', '~> 1.0.2'
+pod 'PinYin4Objc', '~> 1.1.1'
+#pod 'AMapLocation-NO-IDFA', '~> 2.3.0'
+pod 'MJRefresh', '~> 3.1.12'
+pod 'UMengAnalytics-NO-IDFA', '~> 4.1.9'
+pod 'FSCalendar', '~> 2.7.9'
+pod 'UMengUShare','~> 6.4.3'
+pod 'CocoaLumberjack'
+#pod 'ReactiveCocoa', '~> 2.1.8'
+pod 'TSMessages'
+pod 'WebViewJavascriptBridge', '~> 6.0'
+
+end
