@@ -539,7 +539,7 @@
         }
         
     } fail:^{
-        sendEmail`Btn.enabled = YES;
+        sendEmailBtn.enabled = YES;
         [StaticTools showAlert:@"请求网络失败!"];
         
     }];
