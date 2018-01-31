@@ -57,7 +57,33 @@
         self.moreTicketLabel.text = [NSString stringWithFormat:@"剩%ld张", (long)seatNum];
     }
     
+}
+
+- (void)reloadDataDic:(NSDictionary *)model {
     
+    self.priceLabel.text = [NSString stringWithFormat:@"%@", model[@"freight"][@"highPrice"]]; // 价钱
+    self.cabinTypeLabel.text = [NSString stringWithFormat:@"%@", model[@"newCabinMsg"]]; // 机舱类型
+    
+    CGFloat discount = [[NSString stringWithFormat:@"%@", model[@"discount"]] floatValue];
+    if (discount == 100 || discount == 300) {
+        self.discountLabel.text = @"全价";
+    } else if (discount == 0) {
+        self.discountLabel.text = @"";
+    } else {
+        if (discount<100 && 0<discount) {
+            self.discountLabel.text = [[NSString stringWithFormat:@"%.1f",discount/10] stringByAppendingString:@"折"];
+        } else if (discount<300 && 100<discount) {
+            self.discountLabel.text = @"折扣舱";
+        }
+        
+    }
+    // 余票
+    NSInteger seatNum = [[NSString stringWithFormat:@"%@", model[@"surplusCabinNumber"]] integerValue];
+    if (seatNum >= 1 && seatNum <= 3) {
+        self.moreTicketLabel.text = [NSString stringWithFormat:@"剩%ld张", seatNum];
+    }
     
 }
+
+
 @end

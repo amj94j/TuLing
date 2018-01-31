@@ -21,4 +21,5 @@
 // 点击退改规程
 - (IBAction)backToRuleClick:(UIButton *)sender;
 - (void)reloadData:(TicketSpacePolicyModel *)model;
+- (void)reloadDataDic:(NSDictionary *)model;
 @end

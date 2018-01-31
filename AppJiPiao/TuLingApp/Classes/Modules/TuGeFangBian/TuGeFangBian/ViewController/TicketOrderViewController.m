@@ -187,13 +187,25 @@
     } else {
         TicketOrderCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TicketOrderCell" forIndexPath:indexPath];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
-        TicketSpacePolicyModel *ticketSpacePolicyModel = self.dataArr[indexPath.section-1];
-        [cell reloadData:ticketSpacePolicyModel];
+        
+        TicketSpacePolicyModel *ticketSpacePolicyModel = [TicketSpacePolicyModel new];
+        NSDictionary *ticketOrderEndorseDic = [NSDictionary new];
+        if (self.ticketOrderType == TicketOrderTicketEndorse) {
+            ticketOrderEndorseDic = self.dataArr[indexPath.section-1];
+            [cell reloadDataDic:ticketOrderEndorseDic];
+        } else {
+            ticketSpacePolicyModel = self.dataArr[indexPath.section-1];
+            [cell reloadData:ticketSpacePolicyModel];
+        }
         WS(ws)
         cell.bookingActionBlock = ^{
             // 点击订票
-            TicketSpacePolicyModel *model = self.dataArr[indexPath.section-1];
-            NSInteger seatNum = model.belongSpcaceModel.seatnum;
+            NSInteger seatNum;
+            if (self.ticketOrderType == TicketOrderTicketEndorse) {
+                seatNum = [[NSString stringWithFormat:@"%@", ticketOrderEndorseDic[@"surplusCabinNumber"]] integerValue];
+            } else {
+                seatNum = ticketSpacePolicyModel.belongSpcaceModel.seatnum;
+            }
             if (seatNum == 0) {
                 [self showProgress:@"当前舱位余票不足"];
                 return;
@@ -216,8 +228,14 @@
             WS(ws)
             [dic setObject:ws.searchFlightsInfo.airlineCode forKey:@"carrier"];
             [dic setObject:ws.searchFlightsInfo.flightNumber forKey:@"flightNo"];
-            [dic setObject:ticketSpacePolicyModel.belongSpcaceModel.seatcode forKey:@"seatClass"];
-            [dic setObject:[NSString stringWithFormat:@"%ld",(long)ticketSpacePolicyModel.belongSpcaceModel.ticketprice] forKey:@"ticketParsPrice"];
+            if (self.ticketOrderType == TicketOrderTicketEndorse) {
+                [dic setObject:ticketOrderEndorseDic[@"cabinCode"] forKey:@"seatClass"];
+                [dic setObject:ticketOrderEndorseDic[@"freight"][@"highPrice"] forKey:@"ticketParsPrice"];
+            } else {
+                [dic setObject:ticketSpacePolicyModel.belongSpcaceModel.seatcode forKey:@"seatClass"];
+                [dic setObject:[NSString stringWithFormat:@"%ld",(long)ticketSpacePolicyModel.belongSpcaceModel.ticketprice] forKey:@"ticketParsPrice"];
+            }
+            
             [dic setObject:ws.searchFlightsInfo.beginCity forKey:@"formCity"];
             [dic setObject:ws.searchFlightsInfo.endCity forKey:@"toCity"];
             [dic setObject:ws.searchFlightsInfo.bTime forKey:@"takeOffDate"];
@@ -395,7 +413,7 @@
 // 改签 跳转本地
 - (void)EndorseJumpIndexPath:(NSIndexPath *)indexPath {
     WS(ws)
-    ws.searchFlightsInfo.spacePolicyModel = ws.dataArr[indexPath.section - 1];
+//    ws.searchFlightsInfo.spacePolicyModel = ws.dataArr[indexPath.section - 1];
     NSMutableDictionary *allDic = [NSMutableDictionary new];
     // 往返
     if (ws.tickeModel.orderType == 2 && ws.endorseInfo.backState == 2) {
@@ -434,9 +452,9 @@
             [goDic removeObjectForKey:@"policyModels"];
             [allDic setObject:goDic forKey:@"goSpacePolicyInfo"];
             
-            NSMutableDictionary *backDic =  [[ws.searchFlightsInfo.spacePolicyModel.belongSpcaceModel properties_aps] mutableCopy];
-            [backDic removeObjectForKey:@"policyModels"];
-            [allDic setObject:backDic forKey:@"backSpacePolicyInfo"];
+//            NSMutableDictionary *backDic =  [[ws.searchFlightsInfo.spacePolicyModel.belongSpcaceModel properties_aps] mutableCopy];
+//            [backDic removeObjectForKey:@"policyModels"];
+//            [allDic setObject:backDic forKey:@"backSpacePolicyInfo"];
             
             NSMutableDictionary *backFlightsInfo = [[ws.searchFlightsInfo properties_aps] mutableCopy];
             [backFlightsInfo removeObjectForKey:@"spacePolicyModel"];
@@ -448,9 +466,9 @@
     } else {
         ws.searchFlightsInfo.flightType = OrderFlightTypeDanCheng;
         // 单程
-        NSMutableDictionary *goSpacePolicyInfo =  [[ws.searchFlightsInfo.spacePolicyModel.belongSpcaceModel properties_aps] mutableCopy];
-        [goSpacePolicyInfo removeObjectForKey:@"policyModels"];
-        [allDic setObject:goSpacePolicyInfo forKey:@"goSpacePolicyInfo"];
+//        NSMutableDictionary *goSpacePolicyInfo =  [[ws.searchFlightsInfo.spacePolicyModel.belongSpcaceModel properties_aps] mutableCopy];
+//        [goSpacePolicyInfo removeObjectForKey:@"policyModels"];
+//        [allDic setObject:goSpacePolicyInfo forKey:@"goSpacePolicyInfo"];
         
         NSMutableDictionary *goFlightsInfo = [[ws.searchFlightsInfo properties_aps] mutableCopy];
         [goFlightsInfo removeObjectForKey:@"spacePolicyModel"];

@@ -67,6 +67,12 @@
     return model;
 }
 
+- (NSArray *)cabinListArr {
+    if (!_cabinListArr) {
+        _cabinListArr = [NSArray new];
+    }
+    return _cabinListArr;
+}
 
 +(SearchFlightsModel *)getNewEndorseModel:(NSDictionary*)netDic {
     
@@ -147,6 +153,7 @@
     }
     
     NSArray *cabinList = [dataDic objectOrNilForKey:@"cabinList"];
+    model.cabinListArr = [cabinList copy];
     model.rate = [[cabinList firstObject] objectOrNilForKey:@"discount"];
     model.classtype = [[cabinList firstObject] objectOrNilForKey:@"newCabinMsg"];
 

@@ -619,21 +619,23 @@
     
     if (self.selecFlightType == SelectFlightTicketEndorse) {
         WS(ws)
-        [HzTools showLoadingViewWithString:@""];
-        [TicketSpaceModel asyncPostQueryChangeFlightDeatilWithTicketModel:self.tickeModel FlightsModel:model oldSeatcode:[self.endorseInfo.selectPersons firstObject][@"cabinCode"] oldDiscount:[self.endorseInfo.selectPersons firstObject][@"discount"] SuccessBlock:^(NSArray *dataArray) {
-            [HzTools hiddenLoadingView];
+//        [HzTools showLoadingViewWithString:@""];
+//        [TicketSpaceModel asyncPostQueryChangeFlightDeatilWithTicketModel:self.tickeModel FlightsModel:model oldSeatcode:[self.endorseInfo.selectPersons firstObject][@"cabinCode"] oldDiscount:[self.endorseInfo.selectPersons firstObject][@"discount"] SuccessBlock:^(NSArray *dataArray) {
+//            [HzTools hiddenLoadingView];
             if (ws.selecFlightType == SelectFlightTicketEndorse) {
                 vc.endorseInfo = ws.endorseInfo;
                 vc.ticketOrderType = TicketOrderTicketEndorse;
             }
-            NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"saleprice" ascending:YES];
+//            NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"saleprice" ascending:YES];
             //这个数组保存的是排序好的对象
-            NSArray *tempArray = [dataArray sortedArrayUsingDescriptors:[NSArray arrayWithObject:sortDescriptor]];
-            vc.dataArr = [tempArray copy];
+//            NSArray *tempArray = [dataArray sortedArrayUsingDescriptors:[NSArray arrayWithObject:sortDescriptor]];
+        
+//            vc.dataArr = [tempArray copy];
+        vc.dataArr = [vc.searchFlightsInfo.cabinListArr copy];
             [ws.navigationController pushViewController:vc animated:YES];
-        } errorBlock:^(NSError *errorResult) {
-            
-        }];
+//        } errorBlock:^(NSError *errorResult) {
+//
+//        }];
     } else {
         WS(ws)
         [TicketSpaceModel asyncQueryFlightSpaceInfoWithTicketModel:self.tickeModel flightno:model.flightNumber beginTime:bTime SuccessBlock:^(NSArray *dataArray) {

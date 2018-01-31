@@ -61,6 +61,7 @@ typedef enum : NSUInteger {
 @property (nonatomic, copy)NSString *tgqremark; // "<null>";
 @property (nonatomic, assign)BOOL twoDay; // 是否次日
 @property (nonatomic, copy)NSString *flightTime; // 飞行时长 1h10m
+@property (nonatomic, copy) NSArray *cabinListArr;
 @property (nonatomic, strong) TicketSpacePolicyModel *spacePolicyModel; // 当前选择的舱位政策模型，里面包含选择的舱位模型
 @property (nonatomic, assign) OrderFlightType flightType; // 行程类型
 

@@ -135,7 +135,7 @@
         NSString *url = [kDomainName stringByAppendingString:kPlaneQueryChangeFlightDeatil];
         NSLog(@"---------kPlaneQueryChangeFlightDeatil---dic---------\n%@",dic);
         [NetAccess postJSONWithUrl:url parameters:dic WithLoadingView:NO andLoadingViewStr:nil success:^(id responseObject) {
-//            NSLog(@"-----kPlaneQueryChangeFlightDeatil------%@",responseObject);
+            NSLog(@"-----kPlaneQueryChangeFlightDeatil------%@",responseObject);
             if ([responseObject isKindOfClass:[NSDictionary class]]) {
                 NSArray *datalist = [responseObject objectForKey:@"content"];
                 NSMutableArray *allSpacePolicyArray = [NSMutableArray array];

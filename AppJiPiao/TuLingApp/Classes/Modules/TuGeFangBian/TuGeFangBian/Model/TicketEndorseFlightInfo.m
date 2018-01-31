@@ -38,7 +38,6 @@
             if (([backState isEqualToString:@"2"] && !ticketModel.isGo)) {
                 
                 [dic setObject:ticketModel.backBeginTime forKey:@"takeoffDate"];
-                NSLog(@"---------kPlaneQuerySatisfyBackTicketOrder---dic---------\n%@",dic);
                 NSMutableArray *passagerNames = [NSMutableArray new];
                 for (NSDictionary *dic in dataDic.selectPersons) {
                     if ([[NSString stringWithFormat:@"%@",dic[@"backState"]] isEqualToString:@"1"]) {
@@ -70,9 +69,8 @@
             [dic setObject:ticketModel.beginTime forKey:@"takeoffDate"];
         }
         NSString *url = [kDomainName stringByAppendingString:kPlaneQuerySatisfyBackTicketOrder];
-        NSLog(@"---------kPlaneQuerySatisfyBackTicketOrder---dic---------\n%@",dic);
         [NetAccess postJSONWithUrl:url parameters:dic WithLoadingView:YES andLoadingViewStr:nil success:^(id responseObject) {
-//            NSLog(@"---------kPlaneQuerySatisfyBackTicketOrder------------\n%@",responseObject);
+            NSLog(@"---------kPlaneQuerySatisfyBackTicketOrder------------\n%@",responseObject);
             if ([responseObject isKindOfClass:[NSDictionary class]] && [[responseObject objectForKey:@"result"] isKindOfClass:[NSArray class]]) {
                 NSArray *datalist = [responseObject objectForKey:@"result"];
                 NSMutableArray *cityListArray = [NSMutableArray array];
