@@ -139,10 +139,11 @@
     
 }
 
-- (void)setDataDic:(NSDictionary *)dataDic {
-    if (![self.dataDic isEqualToDictionary:dataDic]) {
-        self.dataDic = dataDic;
+- (NSDictionary *)dataDic {
+    if (!_dataDic) {
+        _dataDic = [NSDictionary new];
     }
+    return _dataDic;
 }
 
 // 退改签规则 改签之后的退改签规则

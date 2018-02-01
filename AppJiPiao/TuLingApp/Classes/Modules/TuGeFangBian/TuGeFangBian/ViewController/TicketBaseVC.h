@@ -24,8 +24,8 @@
 #define kColor_Line [UIColor colorWithHexString:@"#E2E2E2"]
 
 // 域名
-#define kDomainName @"http://192.168.1.153:9093/"
-//#define kDomainName @"http://192.168.1.171:9093/"
+//#define kDomainName @"http://192.168.1.153:9093/"
+#define kDomainName @"http://192.168.5.10:9093/"
 //#define kDomainName @"http://188j009c24.iask.in:8879/"
 //#define kDomainName @"http://47.93.114.200:9091/"
 
