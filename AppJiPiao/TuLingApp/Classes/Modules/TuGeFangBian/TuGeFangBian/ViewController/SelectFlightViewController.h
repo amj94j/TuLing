@@ -26,4 +26,5 @@ typedef NS_ENUM(NSInteger, SelectFlightType) {
 @property (nonatomic, strong) EndorseModel *endorseModel;
 @property (nonatomic, strong) TicketEndorseInfo *endorseInfo;
 @property (nonatomic, strong) SelectFlightConditionModel *selectFlightConditionModel;
+@property (nonatomic, copy) NSDictionary *goDic;
 @end

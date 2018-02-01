@@ -143,8 +143,8 @@
     NSMutableDictionary *dic = [NSMutableDictionary new];
     [dic setObject:_model.airlineCode forKey:@"carrier"];
     [dic setObject:_model.flightNumber forKey:@"flightNo"];
-    [dic setObject:_model.spacePolicyModel.belongSpcaceModel.seatcode forKey:@"seatClass"];
-    [dic setObject:[NSString stringWithFormat:@"%ld",(long)_model.spacePolicyModel.belongSpcaceModel.ticketprice] forKey:@"ticketParsPrice"];
+//    [dic setObject:_model.spacePolicyModel.belongSpcaceModel.seatcode forKey:@"seatClass"];
+//    [dic setObject:[NSString stringWithFormat:@"%ld",(long)_model.spacePolicyModel.belongSpcaceModel.ticketprice] forKey:@"ticketParsPrice"];
     [dic setObject:_model.beginCity forKey:@"formCity"];
     [dic setObject:_model.endCity forKey:@"toCity"];
     [dic setObject:_model.bTime forKey:@"takeOffDate"];

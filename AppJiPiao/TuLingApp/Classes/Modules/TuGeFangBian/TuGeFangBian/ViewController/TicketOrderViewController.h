@@ -24,4 +24,5 @@ typedef NS_ENUM(NSInteger, TicketOrderType) {
 @property (nonatomic, assign) TicketOrderType ticketOrderType;
 @property (nonatomic, strong) EndorseModel *endorseModel;
 @property (nonatomic, strong) TicketEndorseInfo *endorseInfo;
+@property (nonatomic, copy) NSDictionary *goDic;
 @end

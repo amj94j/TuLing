@@ -423,6 +423,8 @@
             ws.searchFlightsInfo.flightType = OrderFlightTypeWangFanGo;
             selectFlightVC.goSearchFlightsInfo = ws.searchFlightsInfo;
             ws.tickeModel.isGo = NO;
+            NSDictionary *goDic = ws.dataArr[indexPath.section-1];
+            ws.goDic = goDic;
             // 选返程机票
             NSString *isOrderType = @"1";
             [TicketEndorseFlightInfo asyncPostNewEndorseModel:ws.tickeModel dataDic:self.endorseInfo backState:[NSString stringWithFormat:@"%ld",self.endorseInfo.backState] isOrderType:isOrderType SuccessBlock:^(NSArray *dataArray) {
@@ -448,13 +450,16 @@
             [goFlightsInfo removeObjectForKey:@"spacePolicyModel"];
             [allDic setObject:goFlightsInfo forKey:@"goFlightsInfo"];
             
-            NSMutableDictionary *goDic =  [[ws.goSearchFlightsInfo.spacePolicyModel.belongSpcaceModel properties_aps] mutableCopy];
-            [goDic removeObjectForKey:@"policyModels"];
+//            NSMutableDictionary *goDic =  [[ws.goSearchFlightsInfo.spacePolicyModel.belongSpcaceModel properties_aps] mutableCopy];
+//            [goDic removeObjectForKey:@"policyModels"];
+            NSDictionary *goDic = self.goDic;
+            // 往返的还需要将去的舱位信息传过去 最后加起来
             [allDic setObject:goDic forKey:@"goSpacePolicyInfo"];
             
 //            NSMutableDictionary *backDic =  [[ws.searchFlightsInfo.spacePolicyModel.belongSpcaceModel properties_aps] mutableCopy];
 //            [backDic removeObjectForKey:@"policyModels"];
-//            [allDic setObject:backDic forKey:@"backSpacePolicyInfo"];
+            NSDictionary *backDic = ws.dataArr[indexPath.section-1];
+            [allDic setObject:backDic forKey:@"backSpacePolicyInfo"];
             
             NSMutableDictionary *backFlightsInfo = [[ws.searchFlightsInfo properties_aps] mutableCopy];
             [backFlightsInfo removeObjectForKey:@"spacePolicyModel"];
@@ -469,6 +474,8 @@
 //        NSMutableDictionary *goSpacePolicyInfo =  [[ws.searchFlightsInfo.spacePolicyModel.belongSpcaceModel properties_aps] mutableCopy];
 //        [goSpacePolicyInfo removeObjectForKey:@"policyModels"];
 //        [allDic setObject:goSpacePolicyInfo forKey:@"goSpacePolicyInfo"];
+        NSDictionary *goDic = ws.dataArr[indexPath.section-1];
+        [allDic setObject:goDic forKey:@"goSpacePolicyInfo"];
         
         NSMutableDictionary *goFlightsInfo = [[ws.searchFlightsInfo properties_aps] mutableCopy];
         [goFlightsInfo removeObjectForKey:@"spacePolicyModel"];

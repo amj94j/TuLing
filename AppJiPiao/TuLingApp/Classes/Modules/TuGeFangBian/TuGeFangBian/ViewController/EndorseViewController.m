@@ -197,7 +197,6 @@
 //        private String shouldBackFee;//升舱费
         
         
-        
         NSMutableDictionary *allDic = [NSMutableDictionary new];
 //        NSString *oldPerson = [Untils arrayToJSONString:self.allPerson];
 //        NSString *oldPerson = self.allPerson;
@@ -206,6 +205,7 @@
             NSMutableDictionary *oldPerDic = [NSMutableDictionary new];
             oldPerDic = [dic mutableCopy];
             [oldPerDic setObject:dic[@"cabinCode"] forKey:@"seatCode"];
+            [oldPerDic setObject:dic[@"backState"] forKey:@"isBack"];
             [oldAllPerson addObject:oldPerDic];
         }
         
@@ -225,8 +225,6 @@
             
             [backcontRequestArr addObject:backBackcontRequestDic];
         }
-//        [allDic setObject:[Untils arrayToJSONString:backcontRequestArr] forKey:@"backcontRequest"];
-        [allDic setObject:backcontRequestArr forKey:@"backcontRequest"];
         
         // 新数据
         NSMutableArray *orderPersonDetailArr = [NSMutableArray new];
@@ -249,7 +247,7 @@
             [dict setObject:dict[@"arrterminal"] forKey:@"arrTerminal"];
             
             [dict setObject:@"0" forKey:@"isBack"];
-            [dict setObject:backcontRequestArr[0][@"seatcode"] forKey:@"seatCode"];
+            [dict setObject:backcontRequestArr[0][@"cabinCode"] forKey:@"seatCode"];
             [dict setObject:backcontRequestArr[0][@"discount"] forKey:@"discount"];
             [orderPersonDetailArr addObject:dict];
         }
@@ -259,7 +257,7 @@
                 dict = [self.selEndorseTicketDic[@"backFlightsInfo"] mutableCopy];
                 [dict setObject:@"1" forKey:@"isBack"];
                 [dict setObject:dic[@"flightPersonId"] forKey:@"flightPersonId"];
-                [dict setObject:backcontRequestArr[1][@"seatcode"] forKey:@"seatCode"];
+                [dict setObject:backcontRequestArr[1][@"cabinCode"] forKey:@"seatCode"];
                 [dict setObject:backcontRequestArr[1][@"discount"] forKey:@"discount"];
                 
                 [dict setObject:dict[@"beginAirPortName"] forKey:@"depairPortch"];
@@ -277,7 +275,7 @@
 //        [allDic setObject:[Untils arrayToJSONString:orderPersonDetailArr] forKey:@"OrderPersonDetail"];
 //        [allDic setObject:[Untils arrayToJSONString:backcontRequestArr] forKey:@"backcontRequest"];
         [allDic setObject:orderPersonDetailArr forKey:@"OrderPersonDetail"];
-        [allDic setObject:backcontRequestArr forKey:@"backcontRequest"];
+//        [allDic setObject:backcontRequestArr forKey:@"backcontRequest"];
         /**原订单ID*/
         if ([[NSString stringWithFormat:@"%@",self.endorseInfo.source] isEqualToString:@"2"]) {
             [allDic setObject:self.endorseInfo.superiorId forKey:@"orderId"];
