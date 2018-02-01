@@ -639,6 +639,7 @@
                     TicketOrderDetailsCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TicketOrderDetailsCell" forIndexPath:indexPath];
                     cell.selectionStyle = UITableViewCellSelectionStyleNone;
                     [cell refreshData:self.goSearchFlightsInfo type:@"改"];
+                    cell.dataDic = self.selEndorseTicketDic[@"goSpacePolicyInfo"];
                     return cell;
                 }
             }
@@ -665,6 +666,7 @@
                     TicketOrderDetailsCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TicketOrderDetailsCell" forIndexPath:indexPath];
                     cell.selectionStyle = UITableViewCellSelectionStyleNone;
                     [cell refreshData:self.goSearchFlightsInfo type:@"改"];
+                    cell.dataDic = self.selEndorseTicketDic[@"goSpacePolicyInfo"];
                     return cell;
                 }
             } else if (self.endorseInfo.backState == 1 && self.isEndorse) {
@@ -689,6 +691,7 @@
                     TicketOrderDetailsCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TicketOrderDetailsCell" forIndexPath:indexPath];
                     cell.selectionStyle = UITableViewCellSelectionStyleNone;
                     [cell refreshData:self.goSearchFlightsInfo type:@"改"];
+                    cell.dataDic = self.selEndorseTicketDic[@"goSpacePolicyInfo"];
                     return cell;
                 }
             } else if (self.endorseInfo.backState == 2 && self.isEndorse) {
@@ -720,8 +723,10 @@
                     cell.selectionStyle = UITableViewCellSelectionStyleNone;
                     if (indexPath.row == 1) {
                         [cell refreshData:self.goSearchFlightsInfo type:@"改"];
+                        cell.dataDic = self.selEndorseTicketDic[@"goSpacePolicyInfo"];
                     } else {
                         [cell refreshData:self.backSearchFlightsInfo type:@"改"];
+                        cell.dataDic = self.selEndorseTicketDic[@"backSpacePolicyInfo"];
                     }
                     return cell;
                 }

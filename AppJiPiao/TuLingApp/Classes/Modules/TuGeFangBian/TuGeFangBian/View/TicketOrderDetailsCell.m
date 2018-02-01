@@ -138,6 +138,13 @@
     }
     
 }
+
+- (void)setDataDic:(NSDictionary *)dataDic {
+    if (![self.dataDic isEqualToDictionary:dataDic]) {
+        self.dataDic = dataDic;
+    }
+}
+
 // 退改签规则 改签之后的退改签规则
 - (IBAction)endorseBackRulesAction:(id)sender {
     NSMutableDictionary *dic = [NSMutableDictionary new];
@@ -145,6 +152,10 @@
     [dic setObject:_model.flightNumber forKey:@"flightNo"];
 //    [dic setObject:_model.spacePolicyModel.belongSpcaceModel.seatcode forKey:@"seatClass"];
 //    [dic setObject:[NSString stringWithFormat:@"%ld",(long)_model.spacePolicyModel.belongSpcaceModel.ticketprice] forKey:@"ticketParsPrice"];
+
+    [dic setObject:self.dataDic[@"cabinCode"] forKey:@"seatClass"];
+    [dic setObject:self.dataDic[@"freight"][@"highPrice"] forKey:@"ticketParsPrice"];
+    
     [dic setObject:_model.beginCity forKey:@"formCity"];
     [dic setObject:_model.endCity forKey:@"toCity"];
     [dic setObject:_model.bTime forKey:@"takeOffDate"];

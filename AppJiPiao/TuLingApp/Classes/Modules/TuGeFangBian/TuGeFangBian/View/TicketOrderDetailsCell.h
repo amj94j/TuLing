@@ -35,6 +35,7 @@
 @property (weak, nonatomic) IBOutlet UIView *articleGreyView;
 
 @property (nonatomic) BOOL isBGImage;
+@property (nonatomic, copy) NSDictionary *dataDic;
 - (void)refreshData:(id)data type:(NSString *)type;
 
 @end
